@@ -27,6 +27,8 @@ library(dendextend)
 load(file = "dada2_110E.RData")
 metadata_mat <- read.csv("data/metadata_110.csv", sep = ",", colClasses=c("ID"="character"))
 
+# Raw data available on NCBI SRA under accession PRJNA657626 
+
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 #
 # Explore metadata ----
